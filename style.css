@@ -136,7 +136,7 @@ footer {
 .card-effect {
     display: inline-block;
     border-radius: 24px;
-    padding: 5rem;
+    padding: 20px;
     margin: 20px;
     overflow: hidden;
     transition: all 1s linear;
@@ -163,7 +163,7 @@ header span {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 header h3 {
     display: inline;
@@ -172,10 +172,9 @@ header h3 {
 }
 header button {
     padding: 12px 16px;
-    margin: 0 50px;
+    margin: 0 20px;
     background: var(--button-bg-fill);
     mix-blend-mode: color-burn;
-    animation: breathing 3s linear infinite alternate;
 }
 header button:hover {
     padding: 12px 24px;
@@ -238,7 +237,7 @@ header button:hover {
 
 /* What we do */
 .w-w-do {
-    padding: 100px 20px;
+    padding: 100px 0.5rem;
 }
 .sec-hdr {
     display: flex;
@@ -284,7 +283,7 @@ header button:hover {
 }
 /* Workdone */
 .wrkdone {
-    padding: 0 20px;
+    padding: 0 0.5rem;
 }
 .wrkdone .card-effect {
     display: flex;
@@ -362,9 +361,6 @@ footer a:hover::before {
     .card-effect {
     padding: 25px;
     }
-    header img {
-        height: 40px;
-    }
     h1 { font-size: clamp(2rem, 3vw, 3rem); }
     h2 { font-size: clamp(1.75rem, 2.5vw, 2.5rem); }
     h3 { font-size: clamp(1.3rem, 2vw, 1.7rem); }
@@ -384,6 +380,9 @@ footer a:hover::before {
 .card-effect img {
     max-height: 300px;
 }
+.wrkdone {
+    padding: 50px;
+}
 .wrkdone .card-effect {
     display: flex;
     flex-direction: row;
@@ -400,12 +399,4 @@ footer a:hover::before {
     display: block;
     margin-top: 30px;
 }
-}
-@media (min-width: 1440px) {
-    body {
-        font-size: 1.2rem;
-    }
-    h1 {
-        font-size: 3rem;
-    }
 }
