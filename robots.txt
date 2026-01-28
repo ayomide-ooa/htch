@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://htchs.netlify.app/sitemap.xml
+Sitemap: https://htchs.netlify.app/site.xml
